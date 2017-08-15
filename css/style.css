@@ -1,0 +1,481 @@
+@keyframes fade {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+body {
+  font-family: Roboto;
+  /* good range for body copy is 14px-20px */
+  font-size: 16px;
+  /*line-height will be equal to 24px (16 •1.5)  */
+  line-height: 1.5;
+  color: #819199;;
+  background-color: #ffffff;
+  animation: fade 1s both;
+  margin: 0;
+   }
+
+img {
+  max-width: 100%;
+}
+
+section {
+  min-height: calc(100vh - 300px);
+}
+
+p {
+  padding-bottom: 5px;
+  margin: 0;
+}
+
+body.bg-color {
+  background-color: #103f4d;
+}
+
+a {
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+  color: #819199;
+  border-bottom: solid 1px transparent;
+  transition: all 0.5s;
+  padding-bottom: 3px;
+}
+
+a:hover {
+  color: #103f4d;
+  border-bottom: solid 1px #103f4d;
+  padding-bottom: 3px;
+}
+
+header {
+  margin: 70px auto 100px 100px;
+  overflow: hidden;
+}
+
+.reverse a  {
+  transition: 0.5s;
+  color: #ffffff;
+}
+
+.reverse a:hover  {
+  color: #819199;
+}
+
+nav.reverse a {
+  color: #819199;
+  border-bottom: solid 1px transparent;
+  transition: all 0.5s;
+  padding-bottom: 3px;
+}
+
+nav.reverse a:hover {
+  color: #ffffff;
+  border-bottom: solid 1px #ffffff;
+  padding-bottom: 3px;
+}
+
+
+header h1  {
+  float: left;
+  width: 12%;
+  margin-top: 0px;
+}
+
+header h1 a {
+  font-family: David Libre;
+  font-weight: 700;
+  font-size:20px ;
+  color: #103f4d;
+  text-decoration:none;
+  border-bottom: 0;
+  transition: all 0.5s;
+}
+
+header h1 a:hover {
+  color: #819199;
+  border-bottom: 0;
+}
+
+
+header nav {
+  float: left;
+  margin-top: 3px;
+}
+
+header nav a {
+  color: #819199;
+  text-decoration: none;
+  margin-right: 25px;
+  text-transform: uppercase;
+  font-weight: 700;
+  border-bottom: solid 1px transparent;
+  transition: all 0.5s;
+  padding-bottom: 3px;
+}
+
+.hero,
+.info,
+.about,
+.work {
+  margin: auto auto 0px 100px;
+  overflow: hidden;
+  animation: fade 1.5s .5s both;
+}
+
+.hero div {
+ width:60%;
+}
+
+.info div {
+ width:60%;
+}
+
+.workcopy {
+  width:60%;
+}
+
+h2 {
+  font-family: David Libre;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1.2;
+  color: #103f4d;
+  margin: 0;
+}
+
+.herocolor h2 {
+   color: #ffffff;
+}
+
+
+footer {
+  margin: auto auto 50px 100px;
+  overflow: hidden;
+}
+
+.copyright {
+  margin-top: 3px;
+  float: left;
+  width: 25%;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.social  {
+  float: left;
+  width: 55%;
+}
+
+.social a  {
+  margin-right: 25px;
+}
+
+.credit {
+  float: right;
+  width: 13%;
+}
+
+ .color2 a:hover {
+  color: #ffffff;
+  border-bottom: solid 1px #ffffff;
+  padding-bottom: 3px;
+}
+
+.infopic img {
+  float:left;
+  width: 30%;
+  padding-right: 30px;
+
+}
+
+.infolink {
+  padding-bottom: 20px;
+}
+
+.infolink a {
+  font-family: David Libre;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1.2;
+  color: #103f4d;
+  text-decoration: none;
+   border-bottom: solid 1px transparent;
+  transition: border-bottom 0.5s;
+  padding-bottom: 3px;
+}
+
+.infolink a:hover {
+  color: #819199;
+  border-bottom: solid 1px #819199;
+  padding-bottom: 3px;
+}
+
+
+.katecopy {
+  float:left;
+  width: 50%;
+}
+
+.kateimage {
+  float:right;
+  width: 50%;
+  padding: 0 100px 40px 40px;
+  box-sizing: border-box;
+}
+
+.kateimage img {
+  padding-bottom:40px;
+}
+
+.workcontainer {
+  width: 60%;
+  margin-bottom: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
+
+.workcontent {
+  width: 40%;
+  position: relative;
+  overflow: hidden;
+  margin: 40px 40px 40px 0;
+}
+
+.workimages {
+  width:100%;
+}
+
+.overlay {
+  position: absolute;
+  bottom: -100%;
+  left: 0;
+  color: #ffffff;
+  height: 100%;
+  width: 100%;
+  background-color: #103f4d;
+  transition: bottom 0.5s  ease-in-out;;
+  }
+
+.overlay p {
+  padding: 0 7% 7% 7%;
+}
+
+.overlay h3 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.2;
+  color: #819199;
+  padding: 7%;
+  margin: 0;
+}
+
+.workcontent:hover .overlay {
+  bottom: 0;
+}
+
+.captions p {
+  font-size:14px;
+  font-weight: 400;
+  padding-top: 10px;
+}
+
+
+a.list  {
+  border-bottom: none;
+  float: left;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+  padding-bottom: 5px;
+ }
+
+.breadcrumbs a:after {
+  content: '/';
+  padding: 0 15px;
+  color: #819199;
+ }
+
+
+.breadcrumbs   {
+ color: #103f4d;
+}
+
+.article  {
+  margin-top: 20px;
+  margin-bottom:60px ;
+  padding-right: 40px;
+  animation: fade 1s .5s both;
+
+}
+
+.captions a{
+  border-bottom: none;
+}
+
+.captions img {
+  outline: 1px transparent solid;
+  transition: 0.5s;
+}
+
+.captions img:hover {
+  opacity: 0.4;
+}
+
+
+
+@media (max-width: 985px) {
+  
+  
+
+  a {
+    border-bottom: none;
+  }
+  
+ a:hover {
+    border-bottom: none;
+  }
+  .workcontent {
+    width: 100%;
+  }
+  .hero div{
+   margin-bottom: 60px ;
+  }
+
+  .color2 a:hover {
+  border-bottom: none;
+  padding-bottom: 3px;
+  }
+
+  header h1  {
+  float: none;
+  width: 100%;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  }
+
+
+  header nav a {
+    float: none;
+  }
+
+}
+
+@media (max-width: 700px) {
+  
+  
+  body {
+    font-size: 14px;
+    margin: 30px;
+  }
+
+  header {
+    margin: 0;
+  }
+
+
+  header nav a {
+    color: #819199;
+    margin-right: 10px;
+  }
+
+
+  h2 {
+    font-size: 24px;
+    line-height: 1.2;
+  }
+
+  footer {
+    margin: 50px 0 50px 0;
+    width:100%;
+  }
+
+  a.list  {
+    font-size: 14px;
+  }
+
+  .credit,
+  .social {
+    float: none;
+    width: 100%;
+    margin-top: 15px;
+  }
+  
+  .social a {
+    margin-right: 20px;
+  }
+
+  .copyright {
+    float: none;
+    width:100%;
+    padding: 0;
+  }
+
+  .hero,
+  .info,
+  .about,
+  .work {
+    margin: 60px 0 0 0;
+  }
+
+  
+  .katecopy,
+  .workcontainer,
+  .workcopy,
+  .info div {
+    float:none;
+    width: 100%;
+  }
+  
+  .hero div {
+   width: 100%;
+   margin-bottom: 60px ;
+  }
+  
+  
+  .workcontent {
+    float: none;
+    width: 60%;
+  }
+
+  .kateimage {
+    float:none;
+    width: 100%;
+    padding: 40px 0 40px 0;
+  }
+
+  .workimages div  {
+    width:100%;
+    float:none;
+    padding: 40px 0 20px 0;
+  }
+
+  .infolink a {
+    font-size: 24px;
+  }
+
+  .article  {
+  padding-right: 0;
+  }
+}
+
+@media (max-width: 540px) {
+
+  
+    .workcontent {
+      float: none;
+      width: 100%;
+      margin: 40px 0 0 0;
+  }
+  
+  
+  .workcontainer {
+    width: 100%;
+    margin-bottom: 40px ;
+  }
+  
+}
+
+
+
