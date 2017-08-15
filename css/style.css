@@ -201,7 +201,7 @@ footer {
   color: #103f4d;
   text-decoration: none;
    border-bottom: solid 1px transparent;
-  transition: border-bottom 0.5s;
+  transition: all 0.5s;
   padding-bottom: 3px;
 }
 
